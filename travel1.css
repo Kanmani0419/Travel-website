@@ -10,13 +10,18 @@
   --white: #ffffff;
   --max-width: 1200px;
 }
+.journey{
+  margin-top: 2%;
+}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+.pop{
+  margin-top: 3%;
+}
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -65,7 +70,12 @@ img {
   display: flex;
   width: 100%;
 }
-
+.leash{
+  margin-top: 4%;
+}
+.discover{
+  margin-top: 4%;
+}
 a {
   text-decoration: none;
   transition: 0.3s;
@@ -341,6 +351,7 @@ header::before {
   max-width: 400px;
   margin-inline: auto;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 5%;
 }
 .showcase__content h4 {
   margin-bottom: 2rem;
